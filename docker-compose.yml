@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  teams-bot:
+    build: .
+    container_name: teams-automation-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Persists login session and generated files across container restarts
+      - ./data:/app/data
+    # Uncomment to limit resource usage on the Pi
+    # deploy:
+    #   resources:
+    #     limits:
+    #       memory: 1g

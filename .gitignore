@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+
+# Playwright session state (contains login cookies)
+data/state.json
+
+# Generated assignment files
+data/assignments/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
