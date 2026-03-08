@@ -24,7 +24,7 @@ Designed to run as a single Docker container. Fully compatible with ARM64 (Raspb
 Run the interactive installer script. It will check for Docker, prompt you for your credentials, generate the `.env` file, and start the container.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/teams-auto.git
+git clone https://github.com/aniolowie/teams-auto.git
 cd teams-auto
 chmod +x install.sh
 ./install.sh
@@ -34,7 +34,7 @@ chmod +x install.sh
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/teams-auto.git
+   git clone https://github.com/aniolowie/teams-auto.git
    cd teams-auto
    ```
 
